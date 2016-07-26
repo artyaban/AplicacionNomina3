@@ -34,33 +34,42 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/editText6"
-        android:layout_marginTop="32dp"
         android:hint="Correo electronico"
         android:layout_below="@+id/editText5"
-        android:layout_alignLeft="@+id/editText5"
-        android:layout_alignStart="@+id/editText5" />
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ENVIAR"
         android:id="@+id/button4"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="135dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:background="#0a0068"
         android:textColor="#ffffff"
-        android:onClick="enviarcorreo" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText7"
-        android:text="Tu contraseña se enviara a tu correo si tienes algun problema llama a sistemas , Gracias."
-        android:layout_centerVertical="true"
+        android:onClick="enviarcorreo"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu contraseña se enviara a tu correo si tienes algun problema llama a sistemas , Gracias."
+        android:id="@+id/textView12"
+        android:layout_below="@+id/editText6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR"
+        android:id="@+id/button5"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignTop="@+id/button4"
+        android:background="#ff0000"
+        android:onClick="regresa" />
+
 </RelativeLayout>

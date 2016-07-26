@@ -25,10 +25,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Contacta al área de Sistemas MEXQ para desbloquear tu cuenta."
         android:id="@+id/textView7"
+        android:layout_marginTop="35dp"
         android:layout_below="@+id/textView6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="75dp" />
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
 
     <TextView
         android:layout_width="wrap_content"

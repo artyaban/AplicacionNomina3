@@ -21,4 +21,12 @@ public class inicio4 extends AppCompatActivity {
         Intent cambiar = new Intent(getApplicationContext(), Inicio.class);
         startActivityForResult(cambiar, 0);
     }
+
+
+    public void  regresa(View view)
+    {
+        Intent cambiar = new Intent(getApplicationContext(), Inicio.class);
+        startActivityForResult(cambiar, 0);
+
+    }
 }
