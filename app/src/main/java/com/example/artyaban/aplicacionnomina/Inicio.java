@@ -19,6 +19,14 @@ public class Inicio extends AppCompatActivity {
     public static int intentos = 0;
 
 
+
+    public void olvido(View view)
+    {
+        Intent cambiar = new Intent(getApplicationContext(), inicio4.class);
+        startActivityForResult(cambiar, 0);
+
+    }
+
     public void validar(View view) {
         EditText usuario = (EditText) findViewById(R.id.editText);
         EditText password = (EditText) findViewById(R.id.editText2);
