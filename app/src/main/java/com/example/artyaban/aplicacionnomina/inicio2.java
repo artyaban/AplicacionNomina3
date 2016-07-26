@@ -42,17 +42,11 @@ public class inicio2 extends AppCompatActivity {
             String scanFormat = scanningResult.getFormatName();
 
 
-            AlertDialog alertDialog3 = new AlertDialog.Builder(inicio2.this).create();
-            alertDialog3.setTitle("Alert");
-            alertDialog3.setMessage("ESCANEADO : "+scanContent);
-            alertDialog3.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    });
-            alertDialog3.show();
 
+
+            Intent intent2 = new Intent(inicio2.this,asistencia1.class);
+            intent2.putExtra("numEmpleado",scanContent);
+            startActivity(intent2);
 
 
         }else{
