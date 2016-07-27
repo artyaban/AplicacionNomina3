@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">"NOMINA MEXQ"</string>
+    <string name="app_name">Sistema Nomina MexQ</string>
+    <string name="agregar">AGREGAR</string>
 </resources>

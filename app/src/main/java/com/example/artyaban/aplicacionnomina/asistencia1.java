@@ -27,7 +27,7 @@ public class asistencia1 extends AppCompatActivity {
     }
     public void registrar(View view)
     {
-        Intent cambiar4 = new Intent(getApplicationContext(), asistencia_falla.class);
+        Intent cambiar4 = new Intent(getApplicationContext(), asistencia_exito.class);
         startActivityForResult(cambiar4, 0);
 
       //  int time = (int) (System.currentTimeMillis());

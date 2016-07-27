@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.artyaban.aplicacionnomina.incidencias_ayuda">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="AYUDA"
+        android:id="@+id/textView31"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.- Da click en agregar en el inspector que necesite una incidencia"
+        android:id="@+id/textView32"
+        android:textAlignment="gravity"
+        android:textColor="#020000"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.- Seleciona la incidencia de la lista."
+        android:id="@+id/textView33"
+        android:layout_alignParentStart="true"
+        android:textColor="#020000"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.- Agrega la hora de la incidencia."
+        android:id="@+id/textView34"
+        android:layout_alignParentStart="true"
+        android:textColor="#020000"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.- Da click en agregar."
+        android:id="@+id/textView35"
+        android:layout_alignParentStart="true"
+        android:textColor="#020000"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.- En la lista aparecera una paloma verde en el nombre de el inspector"
+        android:id="@+id/textView36"
+        android:layout_alignParentStart="true"
+        android:textColor="#020000"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.- Repite los pasos con todos los inspectores que necesiten una incidencia."
+        android:id="@+id/textView37"
+        android:layout_alignParentStart="true"
+        android:textColor="#020000"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.- Da click en cerrar la lista. "
+        android:id="@+id/textView38"
+        android:layout_alignParentStart="true"
+        android:textColor="#020000"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CERRAR"
+        android:id="@+id/button14"
+        android:layout_marginTop="51dp"
+        android:background="#d50000"
+        android:layout_below="@+id/textView38"
+        android:layout_alignRight="@+id/textView38"
+        android:layout_alignEnd="@+id/textView38"
+        android:textStyle="bold|italic"
+        android:onClick="cerrar" />
+
+</RelativeLayout>

@@ -5,17 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class asistencia_falla extends AppCompatActivity {
+public class incidencias_ayuda extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_asistencia_falla);
+        setContentView(R.layout.activity_incidencias_ayuda);
     }
 
-    public void nuevointento(View view)
+    public void cerrar(View view )
     {
-        Intent cambiar4 = new Intent(getApplicationContext(), inicio2.class);
+        Intent cambiar4 = new Intent(getApplicationContext(),lista_asistencia.class);
         startActivityForResult(cambiar4, 0);
     }
 }

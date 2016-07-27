@@ -21,7 +21,10 @@
         <activity android:name=".asistencia1" />
         <activity android:name=".asistencia_ayuda" />
         <activity android:name=".asistencia_exito" />
-        <activity android:name=".asistencia_falla"></activity>
+        <activity android:name=".asistencia_falla" />
+        <activity android:name=".lista_asistencia" />
+        <activity android:name=".incidencias_ayuda" />
+        <activity android:name=".lista_asistencia_exito"></activity>
     </application>
 
 </manifest>
