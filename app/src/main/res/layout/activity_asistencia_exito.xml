@@ -42,15 +42,12 @@
         android:layout_height="wrap_content"
         android:text="AGREGAR ENTRADA"
         android:id="@+id/button9"
-        android:layout_below="@+id/imageView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="48dp"
         android:background="#1b5e20"
         android:textColor="#ffffff"
-        android:layout_alignRight="@+id/button10"
-        android:layout_alignEnd="@+id/button10"
-        android:onClick="nueva" />
+        android:onClick="nueva"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView26"
+        android:layout_alignEnd="@+id/textView26" />
 
     <Button
         android:layout_width="wrap_content"
