@@ -1,7 +1,7 @@
 package com.example.artyaban.aplicacionnomina;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class lista_asistencia_exito extends AppCompatActivity {
